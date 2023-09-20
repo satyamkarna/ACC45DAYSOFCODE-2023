@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+	float radius, perimeter;
+	printf("enter the number/n");
+	scanf("%f",&radius);
+	perimeter=2*3.14*radius;
+	printf("perimeterof %f is%f/n", radius, perimeter);
+	return 0;
+}
+
